@@ -7,10 +7,10 @@ CORS(app)
 
 # Database Connection
 conn = mysql.connector.connect(
-    host="dpg-cvldve56ubrc73bidcng-a",
+    host="localhost",
     user="root",
-    password="jrrSnnJLM80nBeqkUeZqKqnJQwmzu2Wh",
-    database="student_management_c8hy"
+    password="madhu123",
+    database="student_management"
 )
 cursor = conn.cursor(dictionary=True)
 
